@@ -6,8 +6,5 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
-
-        F1 car = new F1("Ferrari", true);
-        car.accelerate(60);
     }
 }
