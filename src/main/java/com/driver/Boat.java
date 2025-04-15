@@ -5,14 +5,6 @@ public class Boat implements WaterVehicle{
     public String name;
     public int capacity;
 
-    public String getName() {
-        return name;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
     @Override
     public String getVehicleName() {
         return name;

@@ -10,8 +10,8 @@ public class Car extends Vehicle {
     private int seats;
 
 
-    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
-        super(name, 30, 43);
+    public Car(String name, int currentSpeed, int currentDirection, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
+        super(name, currentSpeed, currentDirection);
 
         //Hint: Car extends Vehicle
     }
