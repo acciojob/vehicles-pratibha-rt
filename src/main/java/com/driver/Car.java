@@ -10,14 +10,14 @@ public class Car extends Vehicle {
     private int seats;
 
 
-    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type,int currentGear) {
+    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type) {
         super(name);
         this.wheels = wheels;
         this.doors = doors;
         this.gears = gears;
         this.isManual = isManual;
         this.type = type;
-        this.currentGear = currentGear;
+        this.currentGear = 1;
         this.seats = 4;
 
         //Hint: Car extends Vehicle
