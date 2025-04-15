@@ -3,7 +3,8 @@ package com.driver;
 public class F1 extends Car {
 
     public F1(String name, boolean isManual) {
-        super(name, 40, 45, 4, 4, 6, true, "convertible", 7);
+        super(name, 40, 45, 4, 4, 6, isManual, "con", 7);
+
         //Use arbitrary values for parameters which are not mentioned
     }
 
