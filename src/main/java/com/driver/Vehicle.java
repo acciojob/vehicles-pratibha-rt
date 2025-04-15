@@ -8,6 +8,9 @@ public class Vehicle {
 
     public Vehicle(String name, int Speed, int Direction) {
         this.name = name;
+        this.currentSpeed = Speed;
+        this.currentDirection = Direction;
+
     }
 
     public String getName() {
