@@ -10,23 +10,14 @@ public class Car extends Vehicle {
     private int seats;
 
 
-    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int currentGear) {
+    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type) {
         super(name);
         this.wheels = wheels;
+        this.type = type;
         this.doors = doors;
         this.gears = gears;
         this.isManual = isManual;
-        this.type = type;
-        this.currentGear = currentGear;
-        this.seats = 4;
     }
-
-    // Constructor used by F1
-    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type) {
-        this(name, wheels, doors, gears, isManual, type, 1); // default currentGear = 1
-    }
-
-
 
     public int getWheels() {
         return wheels;
